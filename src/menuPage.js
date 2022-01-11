@@ -12,28 +12,28 @@ export const displayMenuPage = function() {
     menuContainer.id = 'menuContainer';
 
     const menuItem1 = createMenuItem('All American Burger',
-                    '../dist/img/american-burger.jpg',
+                    'img/american-burger.jpg',
                     'image of an American burger',
                     'An All-American Burger with all the fixings served on a Sesame Bun');
 
     const menuItem2 = createMenuItem('Bacon Burger',
-                    '../dist/img/bacon-burger.jpeg',
+                    'img/bacon-burger.jpeg',
                     'image of a bacon burger',
                     'A mouthwatering Bacon Burger served on a Sesame Bun');
     const menuItem3 = createMenuItem('Chicken Burger',
-                    '../dist/img/chicken-burger.jpeg',
+                    'img/chicken-burger.jpeg',
                     'image of a chiken burger',
                     'There is no beef to be found in this delicious Chicken Burger!');
     const menuItem4 = createMenuItem('Royal Burger',
-                    '../dist/img/royal-burger.jpeg',
+                    'img/royal-burger.jpeg',
                     'image of a Royal burger',
                     'Our All-American Burger with a fried egg on top! Served on a Sesame Bun');
     const menuItem5 = createMenuItem('Sliders',
-                    '../dist/img/slider.jpg',
+                    'img/slider.jpg',
                     'image of a slider',
                     'Sliders that are great for sharing. Or maybe they are too good to share. Your choice!');
     const menuItem6 = createMenuItem('Shrimp Burger',
-                    '../dist/img/shrimp-burger.jpg',
+                    'img/shrimp-burger.jpg',
                     'image of a shrimp burger',
                     'Our mouth watering burger with a generous helping of shrimp on top!');
 

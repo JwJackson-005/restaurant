@@ -6,7 +6,7 @@ export const displayHomePage = function() {
 
     const restaurantImg = document.createElement('img');
     restaurantImg.classList.add('main-img');
-    restaurantImg.src = '../dist/img/my-restaurant.jpeg';
+    restaurantImg.src = 'img/my-restaurant.jpeg';
     restaurantImg.alt = 'an image of the restaurant lounge';
 
     const homeH1 = document.createElement('h1');

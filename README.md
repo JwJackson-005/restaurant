@@ -1,0 +1,1 @@
+Basic website layout with simple navigation bar at the top. Website elements were all injected via javascript to practice separating elements into their own files. Live demo at https://jwjackson-005.github.io/restaurant/

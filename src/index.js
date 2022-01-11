@@ -1,4 +1,4 @@
-import "../dist/style.css";
+import "../dist/css/style.css";
 
 const removeChildren = function(node) {
     while (node.firstChild) {
@@ -12,7 +12,7 @@ const displayHomePage = function() {
     
     const restaurantImg = document.createElement('img');
     restaurantImg.classList.add('main-img');
-    restaurantImg.src = '../src/my-restaurant.jpeg';
+    restaurantImg.src = '../dist/img/my-restaurant.jpeg';
     restaurantImg.alt = 'an image of the restaurant lounge';
     
     const homeH1 = document.createElement('h1');
@@ -38,28 +38,28 @@ const displayMenuPage = function() {
     menuContainer.id = 'menuContainer';
 
     const menuItem1 = createMenuItem('All American Burger',
-                    '../src/american-burger.jpg',
+                    '../dist/img/american-burger.jpg',
                     'image of an American burger',
                     'An All-American Burger with all the fixings served on a Sesame Bun');
 
     const menuItem2 = createMenuItem('Bacon Burger',
-                    '../src/bacon-burger.jpeg',
+                    '../dist/img/bacon-burger.jpeg',
                     'image of a bacon burger',
                     'A mouthwatering Bacon Burger served on a Sesame Bun');
     const menuItem3 = createMenuItem('Chicken Burger',
-                    '../src/chicken-burger.jpeg',
+                    '../dist/img/chicken-burger.jpeg',
                     'image of a chiken burger',
                     'There is no beef to be found in this delicious Chicken Burger!');
     const menuItem4 = createMenuItem('Royal Burger',
-                    '../src/royal-burger.jpeg',
+                    '../dist/img/royal-burger.jpeg',
                     'image of a Royal burger',
                     'Our All-American Burger with a fried egg on top! Served on a Sesame Bun');
     const menuItem5 = createMenuItem('Sliders',
-                    '../src/slider.jpg',
+                    '../dist/img/slider.jpg',
                     'image of a slider',
                     'Sliders that are great for sharing. Or maybe they are too good to share. Your choice!');
     const menuItem6 = createMenuItem('Shrimp Burger',
-                    '../src/shrimp-burger.jpg',
+                    '../dist/img/shrimp-burger.jpg',
                     'image of a shrimp burger',
                     'Our mouth watering burger with a generous helping of shrimp on top!');
                 

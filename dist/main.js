@@ -40,6 +40,76 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./src/img/american-burger.jpg":
+/*!*************************************!*\
+  !*** ./src/img/american-burger.jpg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/american-burger.jpg\");\n\n//# sourceURL=webpack://restaurant/./src/img/american-burger.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/bacon-burger.jpeg":
+/*!***********************************!*\
+  !*** ./src/img/bacon-burger.jpeg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/bacon-burger.jpeg\");\n\n//# sourceURL=webpack://restaurant/./src/img/bacon-burger.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/chicken-burger.jpeg":
+/*!*************************************!*\
+  !*** ./src/img/chicken-burger.jpeg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/chicken-burger.jpeg\");\n\n//# sourceURL=webpack://restaurant/./src/img/chicken-burger.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/my-restaurant.jpeg":
+/*!************************************!*\
+  !*** ./src/img/my-restaurant.jpeg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/my-restaurant.jpeg\");\n\n//# sourceURL=webpack://restaurant/./src/img/my-restaurant.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/royal-burger.jpeg":
+/*!***********************************!*\
+  !*** ./src/img/royal-burger.jpeg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/royal-burger.jpeg\");\n\n//# sourceURL=webpack://restaurant/./src/img/royal-burger.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/shrimp-burger.jpg":
+/*!***********************************!*\
+  !*** ./src/img/shrimp-burger.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/shrimp-burger.jpg\");\n\n//# sourceURL=webpack://restaurant/./src/img/shrimp-burger.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/slider.jpg":
+/*!****************************!*\
+  !*** ./src/img/slider.jpg ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/slider.jpg\");\n\n//# sourceURL=webpack://restaurant/./src/img/slider.jpg?");
+
+/***/ }),
+
 /***/ "./dist/css/style.css":
 /*!****************************!*\
   !*** ./dist/css/style.css ***!
@@ -136,7 +206,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayHomePage\": () => (/* binding */ displayHomePage)\n/* harmony export */ });\n/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ \"./src/index.js\");\n/* harmony import */ var _img_my_restaurant_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/my-restaurant.jpeg */ \"./src/img/my-restaurant.jpeg\");\n\n\n\nconst displayHomePage = function() {\n    const contentDiv = document.querySelector('div#content');\n    (0,_index__WEBPACK_IMPORTED_MODULE_0__.removeChildren)(contentDiv);\n\n    // const restaurantImg = document.createElement('img');\n    // restaurantImg.classList.add('main-img');\n    // restaurantImg.src = 'img/my-restaurant.jpeg';\n    // restaurantImg.alt = 'an image of the restaurant lounge';\n\n    const restaurantImg = new Image();\n    restaurantImg.src = _img_my_restaurant_jpeg__WEBPACK_IMPORTED_MODULE_1__;\n    restaurantImg.alt = \"JwJack's Restaurant image\";\n\n    const homeH1 = document.createElement('h1');\n    homeH1.textContent = 'Welcome to JwJack\\'s Burger Shack!';\n\n    const infoPara = document.createElement('p');\n    infoPara.textContent = 'This is a fantastic place to eat. Come join us during our business hours...';\n\n    contentDiv.appendChild(homeH1);\n    contentDiv.appendChild(restaurantImg);\n    contentDiv.appendChild(infoPara);\n\n};\n\n//# sourceURL=webpack://restaurant/./src/homePage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayHomePage\": () => (/* binding */ displayHomePage)\n/* harmony export */ });\n/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ \"./src/index.js\");\n/* harmony import */ var _img_my_restaurant_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/my-restaurant.jpeg */ \"./src/img/my-restaurant.jpeg\");\n\n\n\nconst displayHomePage = function() {\n    const contentDiv = document.querySelector('div#content');\n    (0,_index__WEBPACK_IMPORTED_MODULE_0__.removeChildren)(contentDiv);\n\n    // const restaurantImg = document.createElement('img');\n    // restaurantImg.classList.add('main-img');\n    // restaurantImg.src = 'img/my-restaurant.jpeg';\n    // restaurantImg.alt = 'an image of the restaurant lounge';\n\n    const restaurantImg = new Image();\n    restaurantImg.src = _img_my_restaurant_jpeg__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n    restaurantImg.alt = \"JwJack's Restaurant image\";\n\n    const homeH1 = document.createElement('h1');\n    homeH1.textContent = 'Welcome to JwJack\\'s Burger Shack!';\n\n    const infoPara = document.createElement('p');\n    infoPara.textContent = 'This is a fantastic place to eat. Come join us during our business hours...';\n\n    contentDiv.appendChild(homeH1);\n    contentDiv.appendChild(restaurantImg);\n    contentDiv.appendChild(infoPara);\n\n};\n\n//# sourceURL=webpack://restaurant/./src/homePage.js?");
 
 /***/ }),
 
@@ -156,77 +226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayMenuPage\": () => (/* binding */ displayMenuPage)\n/* harmony export */ });\n/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ \"./src/index.js\");\n/* harmony import */ var _img_american_burger_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/american-burger.jpg */ \"./src/img/american-burger.jpg\");\n/* harmony import */ var _img_bacon_burger_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/bacon-burger.jpeg */ \"./src/img/bacon-burger.jpeg\");\n/* harmony import */ var _img_chicken_burger_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/chicken-burger.jpeg */ \"./src/img/chicken-burger.jpeg\");\n/* harmony import */ var _img_royal_burger_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/royal-burger.jpeg */ \"./src/img/royal-burger.jpeg\");\n/* harmony import */ var _img_slider_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/slider.jpg */ \"./src/img/slider.jpg\");\n/* harmony import */ var _img_shrimp_burger_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/shrimp-burger.jpg */ \"./src/img/shrimp-burger.jpg\");\n\n\n\n\n\n\n\n\n\nconst displayMenuPage = function() {\n    const contentDiv = document.querySelector('div#content');\n    (0,_index__WEBPACK_IMPORTED_MODULE_0__.removeChildren)(contentDiv);\n\n    const menuH1 = document.createElement('h1');\n    menuH1.textContent = 'Menu';\n\n    const menuContainer = document.createElement('div');\n    menuContainer.id = 'menuContainer';\n\n    const menuItem1 = createMenuItem('All American Burger',\n                    _img_american_burger_jpg__WEBPACK_IMPORTED_MODULE_1__,\n                    'image of an American burger',\n                    'An All-American Burger with all the fixings served on a Sesame Bun');\n\n    const menuItem2 = createMenuItem('Bacon Burger',\n                    _img_bacon_burger_jpeg__WEBPACK_IMPORTED_MODULE_2__,\n                    'image of a bacon burger',\n                    'A mouthwatering Bacon Burger served on a Sesame Bun');\n    const menuItem3 = createMenuItem('Chicken Burger',\n                    _img_chicken_burger_jpeg__WEBPACK_IMPORTED_MODULE_3__,\n                    'image of a chiken burger',\n                    'There is no beef to be found in this delicious Chicken Burger!');\n    const menuItem4 = createMenuItem('Royal Burger',\n                    _img_royal_burger_jpeg__WEBPACK_IMPORTED_MODULE_4__,\n                    'image of a Royal burger',\n                    'Our All-American Burger with a fried egg on top! Served on a Sesame Bun');\n    const menuItem5 = createMenuItem('Sliders',\n                    _img_slider_jpg__WEBPACK_IMPORTED_MODULE_5__,\n                    'image of a slider',\n                    'Sliders that are great for sharing. Or maybe they are too good to share. Your choice!');\n    const menuItem6 = createMenuItem('Shrimp Burger',\n                    _img_shrimp_burger_jpg__WEBPACK_IMPORTED_MODULE_6__,\n                    'image of a shrimp burger',\n                    'Our mouth watering burger with a generous helping of shrimp on top!');\n\n    menuContainer.appendChild(menuItem1);\n    menuContainer.appendChild(menuItem2);\n    menuContainer.appendChild(menuItem3);\n    menuContainer.appendChild(menuItem4);\n    menuContainer.appendChild(menuItem5);\n    menuContainer.appendChild(menuItem6);\n    contentDiv.appendChild(menuH1);\n    contentDiv.appendChild(menuContainer);\n\n};\n\n\nconst createMenuItem = function (title, src, alt, description) {\n    const menuItem = document.createElement('div');\n    menuItem.classList.add('menuItem');\n\n    const burgerTitle = document.createElement('h2');\n    burgerTitle.textContent = title;\n\n    const burgerImg = new Image();\n    burgerImg.classList.add('burgerImg');\n    burgerImg.src = src;\n    burgerImg.alt = alt;\n\n    const burgerDescription = document.createElement('p');\n    burgerDescription.textContent =  description;\n\n    menuItem.appendChild(burgerTitle);\n    menuItem.appendChild(burgerImg);\n    menuItem.appendChild(burgerDescription);\n\n    return menuItem;\n}\n\n//# sourceURL=webpack://restaurant/./src/menuPage.js?");
-
-/***/ }),
-
-/***/ "./src/img/american-burger.jpg":
-/*!*************************************!*\
-  !*** ./src/img/american-burger.jpg ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"d18df81c4e15f8377937.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/img/american-burger.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/bacon-burger.jpeg":
-/*!***********************************!*\
-  !*** ./src/img/bacon-burger.jpeg ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"ede762cc9c4ddc4ecdfe.jpeg\";\n\n//# sourceURL=webpack://restaurant/./src/img/bacon-burger.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/chicken-burger.jpeg":
-/*!*************************************!*\
-  !*** ./src/img/chicken-burger.jpeg ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"2e7952d774bd80ecb4c4.jpeg\";\n\n//# sourceURL=webpack://restaurant/./src/img/chicken-burger.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/my-restaurant.jpeg":
-/*!************************************!*\
-  !*** ./src/img/my-restaurant.jpeg ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"414ac63f3e8a0c324a8e.jpeg\";\n\n//# sourceURL=webpack://restaurant/./src/img/my-restaurant.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/royal-burger.jpeg":
-/*!***********************************!*\
-  !*** ./src/img/royal-burger.jpeg ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"8ea96ebaf986cabfad3b.jpeg\";\n\n//# sourceURL=webpack://restaurant/./src/img/royal-burger.jpeg?");
-
-/***/ }),
-
-/***/ "./src/img/shrimp-burger.jpg":
-/*!***********************************!*\
-  !*** ./src/img/shrimp-burger.jpg ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"63fa2cc451dacdc8b88a.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/img/shrimp-burger.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/slider.jpg":
-/*!****************************!*\
-  !*** ./src/img/slider.jpg ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"3ae16aeb9f9c6f2e63bd.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/img/slider.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayMenuPage\": () => (/* binding */ displayMenuPage)\n/* harmony export */ });\n/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ \"./src/index.js\");\n/* harmony import */ var _img_american_burger_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/american-burger.jpg */ \"./src/img/american-burger.jpg\");\n/* harmony import */ var _img_bacon_burger_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/bacon-burger.jpeg */ \"./src/img/bacon-burger.jpeg\");\n/* harmony import */ var _img_chicken_burger_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/chicken-burger.jpeg */ \"./src/img/chicken-burger.jpeg\");\n/* harmony import */ var _img_royal_burger_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/royal-burger.jpeg */ \"./src/img/royal-burger.jpeg\");\n/* harmony import */ var _img_slider_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/slider.jpg */ \"./src/img/slider.jpg\");\n/* harmony import */ var _img_shrimp_burger_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/shrimp-burger.jpg */ \"./src/img/shrimp-burger.jpg\");\n\n\n\n\n\n\n\n\n\nconst displayMenuPage = function() {\n    const contentDiv = document.querySelector('div#content');\n    (0,_index__WEBPACK_IMPORTED_MODULE_0__.removeChildren)(contentDiv);\n\n    const menuH1 = document.createElement('h1');\n    menuH1.textContent = 'Menu';\n\n    const menuContainer = document.createElement('div');\n    menuContainer.id = 'menuContainer';\n\n    const menuItem1 = createMenuItem('All American Burger',\n                    _img_american_burger_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n                    'image of an American burger',\n                    'An All-American Burger with all the fixings served on a Sesame Bun');\n\n    const menuItem2 = createMenuItem('Bacon Burger',\n                    _img_bacon_burger_jpeg__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n                    'image of a bacon burger',\n                    'A mouthwatering Bacon Burger served on a Sesame Bun');\n    const menuItem3 = createMenuItem('Chicken Burger',\n                    _img_chicken_burger_jpeg__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n                    'image of a chiken burger',\n                    'There is no beef to be found in this delicious Chicken Burger!');\n    const menuItem4 = createMenuItem('Royal Burger',\n                    _img_royal_burger_jpeg__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n                    'image of a Royal burger',\n                    'Our All-American Burger with a fried egg on top! Served on a Sesame Bun');\n    const menuItem5 = createMenuItem('Sliders',\n                    _img_slider_jpg__WEBPACK_IMPORTED_MODULE_5__[\"default\"],\n                    'image of a slider',\n                    'Sliders that are great for sharing. Or maybe they are too good to share. Your choice!');\n    const menuItem6 = createMenuItem('Shrimp Burger',\n                    _img_shrimp_burger_jpg__WEBPACK_IMPORTED_MODULE_6__[\"default\"],\n                    'image of a shrimp burger',\n                    'Our mouth watering burger with a generous helping of shrimp on top!');\n\n    menuContainer.appendChild(menuItem1);\n    menuContainer.appendChild(menuItem2);\n    menuContainer.appendChild(menuItem3);\n    menuContainer.appendChild(menuItem4);\n    menuContainer.appendChild(menuItem5);\n    menuContainer.appendChild(menuItem6);\n    contentDiv.appendChild(menuH1);\n    contentDiv.appendChild(menuContainer);\n\n};\n\n\nconst createMenuItem = function (title, src, alt, description) {\n    const menuItem = document.createElement('div');\n    menuItem.classList.add('menuItem');\n\n    const burgerTitle = document.createElement('h2');\n    burgerTitle.textContent = title;\n\n    const burgerImg = new Image();\n    burgerImg.classList.add('burgerImg');\n    burgerImg.src = src;\n    burgerImg.alt = alt;\n\n    const burgerDescription = document.createElement('p');\n    burgerDescription.textContent =  description;\n\n    menuItem.appendChild(burgerTitle);\n    menuItem.appendChild(burgerImg);\n    menuItem.appendChild(burgerDescription);\n\n    return menuItem;\n}\n\n//# sourceURL=webpack://restaurant/./src/menuPage.js?");
 
 /***/ })
 
